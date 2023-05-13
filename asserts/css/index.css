@@ -4,24 +4,172 @@
 
 /*** Global css ***/
 body {
-	font-family: 'Poppins', sans-serif;
-	overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 * {
-	margin: 0;
-	box-sizing: border-box;
-	list-style-type: none;
-	text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 :root {
-	--bg-color: #fdfdfd;
-	--text-color: #333;
-	--main-color: #754ef9;
-	--white-color: #fdfdfd;
-	--spacial-color: blue;
-	--shadow-color: rgba(0, 0, 0, .2);
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #754ef9;
+    --white-color: #fdfdfd;
+    --spacial-color: blue;
+    --shadow-color: rgba(0, 0, 0, .2);
 }
 
-/*  */
+
+/* button */
+
+
+/* CSS */
+.button-1 {
+    background: #EFEFF4;
+    border-radius: 999px;
+    border: 1px solid #600343;
+    box-sizing: border-box;
+    color: #600343;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+
+}
+
+.button-2 {
+    background: #600343;
+    border-radius: 999px;
+    border: 1px solid #600343;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 30px;
+
+}
+
+
+/* bannar css */
+.bannar {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    background-color: #EFEFF4;
+}
+
+.bannar .left-side {
+    padding: 115px 200px;
+}
+
+.bannar .left-side h4 {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    text-transform: capitalize;
+    color: #1D1C1D;
+
+}
+
+.bannar .left-side span {
+    color: #600343;
+}
+
+
+
+
+.bannar .left-side p {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #1D1C1D;
+}
+
+.bannar .right-side {
+    background-image: url('/asserts/img/bannar/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.right-side-img {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+.right-side-img img {
+
+    width: 230px;
+
+}
+
+/* bannar  */
+/* card section */
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 80px 100px;
+}
+
+.card-thumbel img {
+    width: 380px;
+    height: 380px;
+}
+
+.card-description {
+    text-align: center;
+}
+
+.card-description h1 {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #600343;
+    margin-bottom: 10px;
+}
+
+.card-description small {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1D1C1D;
+    margin-bottom: 10px;
+
+}
+
+.card-description p {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D1C1D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+.card-description .btn {}
