@@ -129,8 +129,7 @@ body {
 }
 
 .card-thumbel img {
-    width: 380px;
-    height: 380px;
+    width: 100%;
 }
 
 .card-description {
@@ -172,4 +171,120 @@ body {
     padding: 0px 10px;
 }
 
-.card-description .btn {}
+/* card  */
+/* card -2 */
+.card-2-section {
+    background: #F7F7F9;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.card-2-title {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #1D1C1D;
+}
+
+.card-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 10px;
+    margin: 40px 100px;
+
+}
+
+.single-card {
+    text-align: center;
+}
+
+.single-card h1 {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #1D1C1D;
+}
+
+/* bannar 2 */
+.bannar-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 100px;
+    margin: 60px 100px;
+
+    align-items: center;
+}
+
+.bannar-2 .left-side img {
+    width: 100%;
+}
+
+.bannar-2 .right-side h2 {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: #1D1C1D;
+}
+
+.bannar-2 .right-side h3 {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #600343;
+    margin: 10px 0px;
+}
+
+.bannar-2 .right-side p {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.bannar-2 .right-side .story-btn {
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    border: 1px solid #600343;
+    padding: 5px 10px;
+    border-radius: 20px;
+    align-items: center;
+    color: #600343;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-3 {
+    padding: 10px 40px;
+    font-family: 'Calluna Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
